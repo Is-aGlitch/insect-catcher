@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Insect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+        <h1>Catch The Insect</h1>
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+        <h1>Choose your "Favorite" Insect!!</h1>
+        <ul class="insects-list">
+            <li>
+                <button class="choose-insect-btn">
+                    <p> House Fly</p>
+                    <img src="images/png-transparent-housefly-house-fly-fly-insect-wings-eyes-cartoon-comic-free-vector-graphics-removebg-preview.png" alt="fly">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Lady Bug</p>
+                    <img src="images/Ladybug-removebg-preview.png" alt="ladybug">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Grass Hopper</p>
+                    <img src="images/istockphoto-494091657-612x612-removebg-preview.png" alt="grasshopper">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Honey Bee</p>
+                    <img src="images/8-86868_cartoon-bee-vector-black-and-white-hd-png-removebg-preview.png" alt="bee">
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+        <h3 class="time" id="time">Time: 00:00</h3>
+        <h3 class="score" id="score">Score:0</h3>
+        <h5 id="message" class="message">
+            Are you annoyed yet? <br>
+            You're Playing an impossible game!!
+        </h5>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
